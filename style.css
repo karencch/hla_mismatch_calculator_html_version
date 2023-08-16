@@ -1,0 +1,44 @@
+* {
+    font-family: Arial;
+   }
+
+#alleleMis{
+    background-color: yellow;
+}
+
+#antigenMis{
+    background-color: yellow;
+}
+
+#button1{
+    font-size: medium;
+    padding: 15px;
+}
+
+#buttonInForm{
+    text-indent: 50px;
+}
+
+#form{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#forminput{
+    background-color: #EFE3E3;
+    font-size: medium;
+}
+
+
+#myNotes{
+    font-size: small;
+    font-style: italic;
+    text-indent: 50px;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  

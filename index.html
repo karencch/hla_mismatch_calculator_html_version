@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>HLA Calculator</title>
+  </head>
+  <body>
+    <h1>HLA Mismatch Calculator</h1>
+    <h2>
+      Directions: Enter allele results at one locus in the order of patient,
+      patient, donor, donor
+    </h2>
+    <div id="myNotes">
+      <p>
+        e.g., 02:03, 04:02, 01:01, 03:03 (each allele can be separated by comma,
+        tab, or space/s)
+      </p>
+      <p>Note #1: Capitalization does not matter</p>
+      <p>
+        Note #2: The letter X and strings like PAYK are valid entries, such as
+        01:X or 04:PAYK
+      </p>
+      <p>
+        Note #3: Punctuation (except for colon, comma, tab, or spaces) may cause
+        incorrect results.
+      </p>
+    </div>
+
+    <form id="form">
+      <label for="codeHere">Input alleles here:</label>
+      <input type="text" id="forminput" name="hlastrings" size="70" />
+      <br />
+      <br />
+      <div id="buttonInForm">
+        <input type="button" id="button1" value="Click to Submit" />
+      </div>
+    </form>
+
+    <h2 id="outputTitle">RESULTS:</h2>
+
+    <table border="1">
+      <tr>
+        <td></td>
+        <th>Locus</th>
+      </tr>
+      <tr>
+        <th rowspan="2">Patient</th>
+        <td id="p11">-</td>
+      </tr>
+      <tr>
+        <td id="p12">-</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Donor</th>
+        <td id="d11">-</td>
+      </tr>
+      <tr>
+        <td id="d12">-</td>
+      </tr>
+      <tr>
+        <th id="antigenHeader">Antigen # of Mismatches</th>
+        <td id="antigenMis">-</td>
+      </tr>
+      <tr>
+        <th id="alleleHeader">Allelic # of Mismatches</th>
+        <td id="alleleMis">-</td>
+      </tr>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
