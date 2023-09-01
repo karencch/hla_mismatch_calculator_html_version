@@ -17,6 +17,11 @@ X means that no other allele was found, i.e. not detected or homozygous (the sam
 NOTE: DPB1 mismatch alone is still considered "identical" (only count A/B/C/DRB1/DQB1).
 So long as A/B/C/DRB1/DQB1 are the same between donor and recipient, this would be a full match even if DPB1 is different (10/10).
 
+The default match is an identical match, shown below
+Loci: A B C DRB1 DQB1 DPB1
+Antigen # of Mismatches: ND ND ND ND ND ND
+Allelic # of Mismatches: 0 0 0 0 0 0
+
 HOW THE PROGRAM IS MADE:
 HTML, CSS, Javascript
 
